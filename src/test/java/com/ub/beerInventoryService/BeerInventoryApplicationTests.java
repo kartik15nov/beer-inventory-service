@@ -1,4 +1,4 @@
-package com.ub.beer.inventory.service;
+package com.ub.beerInventoryService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,11 +1,10 @@
-package com.ub.beer.inventory.service.web.controllers;
+package com.ub.beerInventoryService.web.controllers;
 
-import com.ub.beer.inventory.service.repositories.BeerInventoryRepository;
-import com.ub.beer.inventory.service.web.mappers.BeerInventoryMapper;
-import com.ub.beer.inventory.service.web.model.BeerInventoryDto;
+import com.ub.beerInventoryService.repositories.BeerInventoryRepository;
+import com.ub.beerInventoryService.web.mappers.BeerInventoryMapper;
+import com.ub.beerInventoryService.web.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

@@ -15,7 +15,7 @@
  *     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.ub.beer.inventory.service.web.mappers;
+package com.ub.beerInventoryService.web.mappers;
 
 import org.springframework.stereotype.Component;
 

@@ -1,10 +1,9 @@
-package com.ub.beer.inventory.service.bootstrap;
+package com.ub.beerInventoryService.bootstrap;
 
-import com.ub.beer.inventory.service.domain.BeerInventory;
-import com.ub.beer.inventory.service.repositories.BeerInventoryRepository;
+import com.ub.beerInventoryService.domain.BeerInventory;
+import com.ub.beerInventoryService.repositories.BeerInventoryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
