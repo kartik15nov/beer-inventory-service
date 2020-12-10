@@ -7,7 +7,7 @@ import org.mapstruct.Mapper;
 @Mapper(uses = {DateMapper.class})
 public interface BeerInventoryMapper {
 
-    BeerInventory beerInventoryDtoToBeerInventory(BeerInventoryDto beerInventoryDTO);
+    BeerInventory beerInventoryDtoToBeerInventory(BeerInventoryDto beerInventoryDto);
 
     BeerInventoryDto beerInventoryToBeerInventoryDto(BeerInventory beerInventory);
 }
