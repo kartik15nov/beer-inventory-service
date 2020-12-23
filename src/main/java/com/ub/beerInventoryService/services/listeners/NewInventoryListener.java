@@ -1,4 +1,4 @@
-package com.ub.beerInventoryService.services;
+package com.ub.beerInventoryService.services.listeners;
 
 import com.ub.beerInventoryService.config.JMSConfig;
 import com.ub.beerInventoryService.domain.BeerInventory;
